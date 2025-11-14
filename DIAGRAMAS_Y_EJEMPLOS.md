@@ -3,43 +3,11 @@
 ## 1️⃣ Flujo de la API
 
 
-```mermaid
-flowchart TD
+<img width="1343" height="435" alt="image" src="https://github.com/user-attachments/assets/95241dcb-aeee-410c-bca1-72295ca88a79" />
 
-    %% CLIENT
-    A[CLIENT (client.js)]
 
-    %% ROUTES
-    A -->|POST /parse-json| B1
-    A -->|POST /parse-toon| B2
 
-    %% JSON PARSER
-    subgraph SERVER (server.js)
 
-        subgraph JSONParser
-            B1[JSONParser.parse()]
-            B1 --> B1a[JSON.parse()]
-            B1 --> B1b[Mide tiempo con now()]
-        end
-
-        %% TOON PARSER
-        subgraph TOONParser
-            B2[TOONParser.parse()]
-            B2 --> B2a[Parsea tokens]
-            B2 --> B2b[Maneja arrays y objetos]
-            B2 --> B2c[Mide tiempo con now()]
-        end
-
-    end
-
-    %% RESPONSES
-    B1 --> C1[JSON Response (tiempo incluido)]
-    B2 --> C2[TOON Response (tiempo incluido)]
-
-    %% CLIENT OUTPUT
-    C1 --> D[CLIENT (client.js): Compara tiempos y muestra resultado]
-    C2 --> D
-```
 
 
 
