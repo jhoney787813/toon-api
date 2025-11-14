@@ -5,54 +5,6 @@
 
 <img width="1343" height="435" alt="image" src="https://github.com/user-attachments/assets/95241dcb-aeee-410c-bca1-72295ca88a79" />
 
-
-
-
-
-
-
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    CLIENT (client.js)                    │
-└──────────────────┬──────────────────────────────────────┘
-                   │
-        ┌──────────┴──────────┐
-        │                     │
-        ▼                     ▼
-    POST /parse-json    POST /parse-toon
-        │                     │
-        │                     │
-┌───────┴──────────────────────┴──────────┐
-│        SERVER (server.js)               │
-│  ┌──────────────────────────────────┐  │
-│  │   JSONParser.parse()             │  │
-│  │   - JSON.parse()                 │  │
-│  │   - Mide tiempo con .now()       │  │
-│  └──────────────────────────────────┘  │
-│                                        │
-│  ┌──────────────────────────────────┐  │
-│  │   TOONParser.parse()             │  │
-│  │   - Parsea tokens                │  │
-│  │   - Maneja arrays y objetos      │  │
-│  │   - Mide tiempo con .now()       │  │
-│  └──────────────────────────────────┘  │
-└────────┬──────────────────────┬────────┘
-         │                      │
-         ▼                      ▼
-    JSON Response         TOON Response
-    (tiempo incluido)     (tiempo incluido)
-         │                      │
-         └──────────┬───────────┘
-                    │
-                    ▼
-          ┌─────────────────────┐
-          │  CLIENT (client.js) │
-          │  - Compara tiempos  │
-          │  - Muestra resultado│
-          └─────────────────────┘
-```
-
 ---
 
 ## 2️⃣ Estructura de Datos: JSON vs TOON
