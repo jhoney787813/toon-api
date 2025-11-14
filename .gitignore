@@ -1,0 +1,154 @@
+# 📦 Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 📝 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 🔧 Environment variables
+.env
+.env.local
+.env.*.local
+
+# 💾 OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.classpath
+.project
+*.swp
+*.swo
+*~
+
+# 🎯 IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.c9/
+*.iml
+*.iws
+*.ipr
+out/
+.netbeans/
+.eclipse/
+.settings/
+*.vim
+
+# 🧪 Test coverage
+coverage/
+.nyc_output/
+
+# 🏗️ Build directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+nuxt.d.ts
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.yarn/cache
+.yarn/unplugged
+
+# 📦 Package manager
+.pnp
+.pnp.js
+
+# 🔐 Secrets
+.env.*.secrets
+secrets/
+*.pem
+*.key
+
+# 📱 Mobile
+platforms/
+plugins/
+.cordova/
+cordova_plugins.js
+
+# 🖥️ Runtime
+tmp/
+temp/
+*.pid
+*.pid.lock
+
+# 🐳 Docker
+Dockerfile
+docker-compose.yml
+docker-compose.local.yml
+docker-compose.override.yml
+
+# 📊 Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# 🎬 Media files (optional, uncomment if needed)
+# *.mp4
+# *.avi
+# *.mov
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+
+# 🗂️ OS-specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# 📋 IDEs
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+
+# 🎯 Node specific
+.npm/
+.eslintcache
+.node_repl_history
+
+# 📦 npm cache
+.npm
+npm-debug.log
+
+# 📀 yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/unplugged
+
+# 🔨 Build output
+*.tsbuildinfo
+
+# 📁 Project specific (uncomment as needed)
+# .env.development.local
+# .env.test.local
+# .env.production.local
+# config/local.js
+
+# 🛑 DO NOT ignore (remove # to enforce)
+# !.gitkeep
+# !.gitattributes
+# !README.md
+# !package.json
+# !.eslintrc.js
