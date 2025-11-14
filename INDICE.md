@@ -35,14 +35,14 @@ La API mide y compara tiempos de procesamiento entre ambos formatos, permitiénd
 - Configuración del proyecto Node.js
 - No requiere dependencias externas (usa módulos nativos)
 
-### 4. **README.md** 📖
+### 4. **[README.md](https://github.com/jhoney787813/toon-api/blob/main/README.md)** 📖
 - Documentación técnica del proyecto
 - Instrucciones paso a paso
 - Explicación del formato TOON
 - Descripción de endpoints
 - Ventajas y desventajas
-
-### 5. **GUIA_COMPLETA.md** 📚
+[](https://github.com/jhoney787813/toon-api/edit/main/.md)
+### 5. **[GUIA_COMPLETA.md](https://github.com/jhoney787813/toon-api/edit/blob/main/GUIA_COMPLETA.md)** 📚
 - Guía completa y detallada
 - Incluye:
   - ¿Qué es TOON?
@@ -53,7 +53,7 @@ La API mide y compara tiempos de procesamiento entre ambos formatos, permitiénd
   - Análisis comparativo
   - Conceptos aprendidos
 
-### 6. **DIAGRAMAS_Y_EJEMPLOS.md** 🎨
+### 6. **[DIAGRAMAS_Y_EJEMPLOS.md](https://github.com/jhoney787813/toon-api/blob/main/DIAGRAMAS_Y_EJEMPLOS.md)** 🎨
 - Diagramas visuales del proyecto
 - Contenido:
   - Flujo de la API
@@ -65,7 +65,7 @@ La API mide y compara tiempos de procesamiento entre ambos formatos, permitiénd
   - Extensiones propuestas para TOON
   - Matriz de comparación completa
 
-### 7. **EJEMPLOS_PETICIONES.md** 🔗
+### 7. **[EJEMPLOS_PETICIONES.md](https://github.com/jhoney787813/toon-api/blob/main/EJEMPLOS_PETICIONES.md)** 🔗
 - Ejemplos listos para copiar y pegar
 - Incluye código en:
   - cURL (terminal)
@@ -77,7 +77,7 @@ La API mide y compara tiempos de procesamiento entre ambos formatos, permitiénd
   - Postman (interfaz gráfica)
   - Pruebas automatizadas
 
-### 8. **este archivo (INDICE.md)** 📑
+### 8. **[este archivo (INDICE.md)](https://github.com/jhoney787813/toon-api/blob/main/INDICE.md)** 📑
 - Índice y resumen de todo
 
 ---
