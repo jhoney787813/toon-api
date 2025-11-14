@@ -10,21 +10,26 @@ flowchart TD
     A[CLIENT (client.js)]
 
     %% ROUTES
-    A -->|POST /parse-json| B1[JSONParser.parse()]
-    A -->|POST /parse-toon| B2[TOONParser.parse()]
+    A -->|POST /parse-json| B1
+    A -->|POST /parse-toon| B2
 
-    %% SERVER
+    %% JSON PARSER
     subgraph SERVER (server.js)
+
         subgraph JSONParser
+            B1[JSONParser.parse()]
             B1 --> B1a[JSON.parse()]
             B1 --> B1b[Mide tiempo con now()]
         end
 
+        %% TOON PARSER
         subgraph TOONParser
+            B2[TOONParser.parse()]
             B2 --> B2a[Parsea tokens]
             B2 --> B2b[Maneja arrays y objetos]
             B2 --> B2c[Mide tiempo con now()]
         end
+
     end
 
     %% RESPONSES
@@ -35,6 +40,7 @@ flowchart TD
     C1 --> D[CLIENT (client.js): Compara tiempos y muestra resultado]
     C2 --> D
 ```
+
 
 
 
