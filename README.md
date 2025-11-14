@@ -7,7 +7,7 @@ Este proyecto crea una API en Node.js que compara dos formatos de datos:
 - **TOON** (Token Oriented Object Notation): Formato simplificado basado en tokens
 
 
-  [VER CONTENIDO Repositorio Toon API](https://github.com/jhoney787813/toon-api/edit/main/INDICE.md)
+  [VER CONTENIDO Repositorio Toon API](https://github.com/jhoney787813/toon-api/blob/main/INDICE.md)
 
 ## Estructura del Formato TOON
 
