@@ -214,33 +214,6 @@ Diferencia:   0.0078 ms
 - Sintaxis más simple
 - Ideal para datos con estructura predecible
 
-## Desventajas
-
-🟥 JSON 
-
-**No maneja tipos raros:** solo sabe strings, números y cositas básicas. Si le metés una fecha o un decimal muy preciso, se enreda todo.
-
-Es medio inseguro si uno no valida lo que recibe; cualquier cosa mal puesta puede meter problemas.
-
-**No tiene un esquema** fijo, entonces cada quien manda el JSON como quiere y después es uno el que sufre acomodándolo.
-
-**No deja poner comentarios**, o sea que nada de explicar qué es cada cosa ahí mismito.
-
-**Se pone lento** cuando son datos grandotes; ya empieza a tragar RAM y a quedar pesado.
-
-🟥 TOON 
-
-**No es estándar formal**, cada quien lo usa como quiere y eso es un despelote para integrarse con otros sistemas.
-
-**Depende mucho del framework**, si cambiás de tecnología ya perdiste el formato.
-
-**Casi no hay documentación**, toca rebuscar o preguntar porque no es tan conocido como JSON.
-
-Puede quedar verboso y largo, metiéndole metadata y cuanta cosa, o sea, queda más pesadito de lo normal.
-
-**Toca aprenderlo cada vez más**, porque no hay una forma universal de usarlo, general mente fue diseñado para comunicar con leguanes IA para optimizar pronts.
-
-
 
 ## Notas
 
